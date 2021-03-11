@@ -1,0 +1,26 @@
+{
+  "name": "@yunser/share-cli",
+  "version": "0.0.1",
+  "description": "Share files on a local area network.",
+  "main": "index.js",
+  "author": "Yunser",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yunser/share-cli"
+  },
+  "bin": {
+    "share": "./index.js"
+  },
+  "scripts": {
+    "dev": "node index in public",
+    "make": "cnpm i -g ."
+  },
+  "dependencies": {
+    "commander": "^7.1.0",
+    "open": "^8.0.2",
+    "portfinder": "^1.0.28",
+    "qrcode-terminal": "^0.12.0",
+    "serve-handler": "^6.1.3"
+  }
+}
